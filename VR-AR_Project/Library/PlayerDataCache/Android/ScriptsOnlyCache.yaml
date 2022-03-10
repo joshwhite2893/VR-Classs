@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - GManager
     - GUIControl
+    - PlayerContexts
     - PlayerController
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -40,9 +41,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 102
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -51,23 +56,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11248}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11380}
     - Class: 114
-      Script: {instanceID: 11834}
+      Script: {instanceID: 11390}
     - Class: 114
-      Script: {instanceID: 12218}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 12698}
+      Script: {instanceID: 11452}
     - Class: 114
-      Script: {instanceID: 13048}
+      Script: {instanceID: 11750}
     - Class: 114
-      Script: {instanceID: 14566}
+      Script: {instanceID: 11842}
     - Class: 114
-      Script: {instanceID: 14734}
+      Script: {instanceID: 12226}
     - Class: 114
-      Script: {instanceID: 17858}
+      Script: {instanceID: 12706}
+    - Class: 114
+      Script: {instanceID: 13056}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -101,6 +108,12 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
+      Hash: 4e1bab14ee216d8a6c52cef428023241
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GManager
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -129,6 +142,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: fde1d29f14bcef4e9a1a905eb74763a7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GUIControl
+  - hash:
+      serializedVersion: 2
+      Hash: aaef1de5d8e537b90bec9d545a8c9611
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerContexts
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -237,6 +262,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 81ad2e729bc330a791d9ae0537fe0a82
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerController
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -513,24 +544,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 7ae44c62ce2db17d2faf3c40d3923b80
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GUIControl
-  - hash:
-      serializedVersion: 2
-      Hash: a820ae9b416a6b720340f457dd230f3e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GManager
-  - hash:
-      serializedVersion: 2
-      Hash: ae689b5444b8eb7d775a9abf068ab16f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerController
   platform: 13
   scenePathNames:
   - Assets/Scenes/Project.unity

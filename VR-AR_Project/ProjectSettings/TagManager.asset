@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bound1
+  - Bound2
+  - Cannon
+  - Gate1
+  - Gate2
+  - weight
+  - Combo
+  - Ending
   layers:
   - Default
   - TransparentFX
